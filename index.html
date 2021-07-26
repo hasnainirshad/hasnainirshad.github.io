@@ -42,7 +42,7 @@
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
 
-  <title>Jane Smith, PhD</title>
+  <title>Hasnain Irshad</title>
 
 </head>
 
@@ -52,60 +52,51 @@
   <div id="page-navbar"></div>
 
   <!-- main wrapper div -->
-  <div class="container min-vh-100" id="wrapper">
+  <div class="container min-vh-20" id="wrapper">
 
     <div class="row">
       <div class="col-sm-4">
         <div class="text-center">
-          <img id="my-photo" src="https://unsplash.it/500/500" class="rounded img-fluid shadow-sm" width="100%" alt="Image of Jane Smith">
+          <img id="my-photo" src="/img/profilepic.jpg" class="rounded img-fluid shadow-sm" width="100%" alt="Image of Hasnain Irshad">
         </div>
 
         <table class="table mt-4" id="contact-table">
           <tbody>
             <tr class="d-flex">
               <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">Building 123<br>
-                James Trickington University<br>
-                Anytown, CA 99999-1234<br>
+              <td class="col-10">Building 113-7<br>
+                Eueon-Dong, Yuseong-Gu<br>
+                Daejeon, South Korea<br>
                 <span class="pointer"><a class="bright-blue" role="button" data-toggle="modal" data-target="#modal-map-to-office"><i class="fa fa-map-marker-alt mr-2"></i>Map</a></span>
               </td>
             </tr>
             <tr class="d-flex">
               <td class="col-2"><i class="fa fa-fw fa-lg fa-phone"></i></td>
-              <td class="col-10"><a href="tel:9991234567">(999) 123-4567</a></td>
+              <td class="col-10"><a href="tel:+821042408980">(+82) 010-4240-8980</a></td>
             </tr>
             <tr class="d-flex">
               <td class="col-2"><i class="fa fa-lg fa-at"></i></td>
-              <td class="col-10"><a href="mailto:me@school.edu">me@school.edu</a></td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-calendar-plus"></i></td>
-              <td class="col-10"><a href="https://calendly.com" target="_blank">Appointment</a><br><small class="text-muted">30 min each</small></td>
+              <td class="col-10"><a href="mailto:hasnain@kaist.ac.kr">hasnain@kaist.ac.kr</a></td>
             </tr>
           </tbody>
         </table>
-
-        <div class="alert alert-primary" role="alert">
-          <h5>Download this template</h5>
-          This template is completely free. Download and use as you see fit&mdash;no attribution to me is necessary. <a href="https://github.com/randal-sean-harrison/academic-website-template-bs4" target="_blank">Download it from Github.</a>
-        </div>
 
       </div>
       <!-- col-sm-4 -->
 
       <div class="col-sm-8 px-4">
 
-        <h1>Jane Smith</h1>
+        <h1>Hasnain Irshad Bhatti</h1>
 
-        <p class="position-title mt-2 mb-1">Title, School or Organization</p>
-        <p class="position-title mt-0 mb-4">Optional Second Title, School or Organization</p>
+        <p class="position-title mt-0 mb-4">Master's student at <a href="http://comstolab.kaist.ac.kr/index.html">MoonLab</a>, 
+                                    <a href="https://www.kaist.ac.kr/">KAIST</a></p>
+        <!-- <p class="position-title mt-0 mb-4">Optional Second Title, School or Organization</p> -->
 
-        <p>Jane Smith is the {{title}} for the {{organization}}. There she {{does things}}. She is particularly focused on {{various activities}}.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
-
+        <p>I am first-year Master's student at Kaist advised by <a href="http://comstolab.kaist.ac.kr/people.html">Jaekyun Moon</a> working on topics related to Federated Learning, Distributed Machine Learning, Local Error Learning and Split Learning. 
+        </p>
+        
+        <p>Previously, I have done my undergraduation from University of Engineering and Technology, Lahore in Electrical Engineering with minor in computer science.</p>
+    
 
         <!-- ------------------------------------------------------------------------>
         <!-- Delete this section below if you don't want a read more section -------->
@@ -113,13 +104,8 @@
 
           <p>Ancillary info here.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
+          <p>I am interested in playing sports etc. </p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nostrum sunt hic, facilis nihil earum facere magnam laboriosam deleniti esse veniam explicabo architecto. Fuga quod consequuntur ducimus omnis molestias eaque.</p>
 
         </div>
 
@@ -128,9 +114,16 @@
         <!-- ------------------------------------------------------------------------>
 
 
-        <h3><span>Education</span></h3>
-
-        <ul id="education" class="list-group">
+        <h3><span>News</span></h3>
+        <ul class="journal-articles">
+            <li>Our new work is accepted in FL-ICML21 titled <a class="urls" href="https://fl-icml.github.io/2021/papers/FL-ICML21_paper_6.pdf">"Accelerating Federated Learning with Split Learning on Locally Generated Losses"</a></li>
+        
+            <li>Joined Master's Program at KAIST</li>
+          <!-- <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li> -->
+        </ul>
+          
+        <!-- <ul id="education" class="list-group">
+        
           <li class="list-group-item">
             <p><strong>PhD, Field</strong><br>
               <span class="university">James Trickington University</span>
@@ -146,7 +139,7 @@
               <span class="university">James Trickington University</span>
             </p>
           </li>
-        </ul>
+        </ul> -->
 
 
       </div>
