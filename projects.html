@@ -56,11 +56,11 @@
 
     <div class="row mx-3">
       <div class="col-sm-12">
-        <h1>Projects</h1>
-        <p>My recent work has involved {{things I've done}}.</p>
+        <h1>Blog</h1>
+        <p>Highlights of some of the work I love to do.</p>
       </div>
       <!-- col-sm-12 -->
-
+<!---
       <div class="col-sm-10 offset-sm-1">
         <form id="search-box">
           <div class="form-group">
@@ -76,12 +76,15 @@
           </div>
         </form>
       </div>
-      <!-- .col-sm-8 -->
+      
+<!-- .col-sm-8 --> 
+
+<!--
 
       <div class="col-sm-10 offset-sm-1 text-center" id="filter-buttons">
 
         <!-- Filter buttons -->
-        <button id="all" class="btn btn-sm btn-primary mr-3 active">
+ <!--       <button id="all" class="btn btn-sm btn-primary mr-3 active">
           <i class="fa fa-infinity mr-2"></i>All
         </button>
         <button id="type1" class="btn btn-sm btn-primary mr-3">
@@ -100,6 +103,7 @@
 
       </div>
       <!-- col-sm-10 -->
+        
     </div>
     <!-- .row -->
 
@@ -111,7 +115,7 @@
         {{#projects}}
           <div class="card-container col-sm-12 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm {{{type}}}" data-url="{{{link}}}">
-              <img src="{{{image}}}" class="card-img-top" alt="...">
+              <img src="{{{image}}}" class="card-img-top" alt="..." width="350" height="250">
               <div class="card-body border-top" data-resource-type="{{{type}}}">
                 <p class="text-center card-action"><span>{{{icon}}}</span></p>
                 <h5 class="project-title">{{name}}</h5>

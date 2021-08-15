@@ -1,9 +1,9 @@
 {
   "projects": [{
-      "name": "Project Alpha",
-      "link": "https://hp.com",
-      "image": "https://unsplash.it/350/250",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+      "name": "Lecture at Daedeok High School",
+      "link": "https://hasnainirshad.github.io/projects/daedeoksession.html",
+      "image": "/img/projects/1623505574625.jpg",
+      "description": "One day lecture seminar on Brain and Artificial Intelligence to Korean tenth graders",
       "type": "type1",
       "icon": "<i class='fa fa-window fa-fw fa-2x'></i>"
     },
