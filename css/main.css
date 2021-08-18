@@ -347,6 +347,7 @@ cite {
 /* wrapper -------------------------------------------------- */
 #wrapper {
   padding-top: 5rem;
+    text-align: justify;
 }
 
 #wrapper a {
