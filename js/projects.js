@@ -6,7 +6,7 @@ $(document).ready(function() {
 
       // Sort the json resources object
       function sortJson(a, b) {
-        return a.date < b.date ? 1 : -1;
+        return a.name > b.name ? 1 : -1;
       }
 
       data.projects.sort(sortJson);

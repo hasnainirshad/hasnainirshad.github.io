@@ -271,7 +271,8 @@ h3:after {
 }
 
 /* Navbar -------------------------------------------- */
-.bg-navbar {
+.bg-navbar,
+.bg-footer {
   background: var(--nd-blue);
 }
 
@@ -292,10 +293,10 @@ h3:after {
 }
 
 #page-footer {
-  margin-top: 5rem;
-  background: var(--footer-slate);
+  background: var(--nd-blue);
   padding: 2rem 0 1.5rem;
 }
+
 
 blockquote,
 cite {
