@@ -1,214 +1,303 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Hasnain Irshad Bhatti | KAIST</title>
 
-<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.">
+    
+    <meta name="keywords" content="minimal light">
+    
+    
+    <link rel="canonical" href="https://minimal-light-theme.yliu.me/"/>
+    
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="img/favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="./assets/css/font.css">
+    
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    
 
-  <!-- jQuery UI css -->
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <!-- Google font: Open Sans Pro -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
-
-
-  <!-- FontAwesome icon include -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Main local styles -->
-  <link rel="stylesheet" href="css/main.css">
-
-  <title>Hasnain Irshad</title>
-
-</head>
-
-<body id="top">
-
-  <!-- navbar include -->
-  <div id="page-navbar"></div>
-
-  <!-- main wrapper div -->
-  <div class="container min-vh-20" id="wrapper">
-
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="text-center">
-          <img id="my-photo" src="/img/profilepic.jpg" class="rounded img-fluid shadow-sm" width="100%" alt="Image of Hasnain Irshad">
-        </div>
-
-        <table class="table mt-4" id="contact-table">
-          <tbody>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-home"></i></td>
-              <td class="col-10">Building N1, KAIST<br>
-                Daejeon, South Korea<br>
-                <span class="pointer"><a class="bright-blue" role="button" data-toggle="modal" data-target="#modal-map-to-office"><i class="fa fa-map-marker-alt mr-2"></i>Map</a></span>
-              </td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-fw fa-lg fa-phone"></i></td>
-              <td class="col-10"><a href="tel:+821042408980">(+82) 010-4240-8980</a></td>
-            </tr>
-            <tr class="d-flex">
-              <td class="col-2"><i class="fa fa-lg fa-at"></i></td>
-              <td class="col-10"><a href="mailto:hasnain@kaist.ac.kr">hasnain@kaist.ac.kr</a></td>
-            </tr>
-          </tbody>
-        </table>
-
-      </div>
-      <!-- col-sm-4 -->
-
-      <div class="col-sm-8 px-4">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        
+        <a class="image avatar"><img src="./assets/img/profile.jpg" alt="avatar" /></a>
+        
 
         <h1>Hasnain Irshad Bhatti</h1>
 
-        <p class="position-title mt-0 mb-4">PhD Candidate at <a href="http://comstolab.kaist.ac.kr/index.html">MoonLab</a>, 
-                                    <a href="https://www.kaist.ac.kr/">KAIST</a></p>
-        <!-- <p class="position-title mt-0 mb-4">Optional Second Title, School or Organization</p> -->
-
-        <p>I am a PhD student at Kaist advised by <a href="http://comstolab.kaist.ac.kr/people.html">Jaekyun Moon</a>. I am working on topics related to Edge Computing, Distributed Machine Learning, Federated Learning, Local Error Learning and Split Learning. I want to develop new learning paradigms for neural network architectures that are scalable in a distributed setting.
-        </p>
-          <p>My hobbies include playing soccer and tennis.</p>
-
-
-        <!-- ------------------------------------------------------------------------>
-        <!-- Delete this section below if you don't want a read more section -------->
         
-        <div id="read-more">
+        <position style="font-size:1.10rem;">Ph.D. Candidate</position>
+        <br>
+        
+        
+        <a href="" rel="noopener"><autocolor>KAIST</autocolor></a>
+        <br>
+        
+        
+        <email>hasnain (at) kaist [dot] ac [dot] kr</email>
+        
 
-        <p>Previously, I have done my undergraduation from University of Engineering and Technology, Lahore in Electrical Engineering with minor in Computer Science. During my bachelors, I served Institution of Engineering and Technology, IET UET Lahore as the Vice President and conducted several workshops on robotics and coding. As my final year project, I worked on "Traffic Accident Detection using Deep Learning" which got me interested into AI. I loved to code and play with robots in my free time.</p>
+        <br>
+        <br>
+        <div class="social-icons">
+        
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.co.kr/citations?user=aP3vFRcAAAAJ">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="assets/files/cv.pdf">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/hasnainirshad">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/hasnainirshad/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+
+        
+        <a style="margin: 0 0 0 0" href="https://twitter.com/hasnain__irshad">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        
+        </div>
+        <br>
+
+      </header>
+      <section>
+
+      <h2 id="about-me">About Me</h2>
+
+<p>I am a PhD candidate at <a href="https://www.kaist.ac.kr">KAIST</a>, working in the <a href="http://moonlab.kaist.ac.kr">Moon Lab</a> under the supervision of <a href="http://moonlab.kaist.ac.kr/people.html">Prof. Jaekyun Moon</a>. My research focuses on Edge Computing, Distributed Machine Learning, Federated Learning, Local Error Learning, and Split Learning. My long-term goal is to develop scalable and efficient learning paradigms for distributed neural network architectures to address challenges in large-scale systems.</p>
+
+<p>Before joining KAIST, I earned my Bachelor’s degree in Electrical Engineering with a minor in Computer Science from the <a href="https://uet.edu.pk">University of Engineering and Technology (UET), Lahore</a>, where I was fortunate to work under the guidance of <a href="https://scholar.google.com.pk/citations?user=52OLKmgAAAAJ&amp;hl=en">Dr. Muhammad Tahir</a>.</p>
+
+<!-- ## Research Interests
+
+- **Distributed Machine Learning:** Federated learning, Split learning, Decoupled training of NNs
+- **Efficient ML:** Active Learning, Pruning Techniques. -->
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[Oct. 2023]</strong> Our paper, “EvoFed: Leveraging Evolutionary Strategies for Communication-Efficient Federated Learning,” was accepted to NeurIPS 2023.</li>
+  <li><strong>[July 2022]</strong> Presented “Locally Supervised Learning with Periodic Global Guidance” at the ICML Workshop on Hardware Aware Efficient Training.</li>
+  <li><strong>[Dec. 2021]</strong> Successfully defended my Master’s thesis.</li>
+  <li><strong>[July 2021]</strong> Presented “Accelerating Federated Learning with Split Learning on Locally Generated Losses” at the FL-ICML21 poster session.</li>
+</ul>
+
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+
+<div class="publications">
+<ol class="bibliography">
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/pub_splitfed_thumb.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+     
+    <abbr class="badge">ICML Workshop</abbr>
     
-
-        </div>
-        
-        <span class="badge badge-primary pointer" id="badge-more">More</span>
-        <!-- Delete this section above if you don't want a read more section -------->
-        <!-- ------------------------------------------------------------------------>
-
-
-        <h3><span>News</span></h3>
-        <ul class="journal-articles">
-            <li>Our new work <a class="urls" href="https://openreview.net/pdf?id=P3Z59Okb5I" target="_blank">"EvoFed: Leveraging Evolutionary Strategies for Communication-Efficient Federated Learning"</a> is accepted in NeurIPS 2023. </li>
-            <li>Our work is accepted in ICML HAET Workshop titled <a class="urls" href="https://arxiv.org/pdf/2208.00821.pdf" target="_blank">"Locally Supervised Learning with Periodic Global Guidance"</a></li>
-            <li>Dec 2021, defended Master's thesis.</li>
-            <li>Planned to get Masters degree by the end of Fall 2021.</li>
-            <li>In July 2021, presented our work in <a class="urls" href="http://federated-learning.org/fl-icml-2021/"> FL-ICML21</a> poster session. Poster available <a class="urls" href="img/poster/aflsllgs.png">(here)</a></li>
-            <li>Our new work is accepted in FL-ICML21 titled <a class="urls" href="https://fl-icml.github.io/2021/papers/FL-ICML21_paper_6.pdf" target="_blank">"Accelerating Federated Learning with Split Learning on Locally Generated Losses"</a></li>
-            <li>In Sept 2020, joined Master's Program at KAIST</li>
-
-            <!-- <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li> -->
-        </ul>
-          
-        <!-- <ul id="education" class="list-group">
-        
-          <li class="list-group-item">
-            <p><strong>PhD, Field</strong><br>
-              <span class="university">James Trickington University</span>
-            </p>
-          </li>
-          <li class="list-group-item">
-            <p><strong>MA, Field (Concentration)</strong><br>
-              <span class="university">James Trickington University</span>
-            </p>
-          </li>
-          <li class="list-group-item">
-            <p><strong>BA, Field (Majors)</strong><br>
-              <span class="university">James Trickington University</span>
-            </p>
-          </li>
-        </ul> -->
-
-
-      </div>
-      <!-- col-sm-8 -->
-
-    </div>
-    <!-- .row -->
-
+    
   </div>
-  <!-- #wrapper .container -->
-
-  <!-- Footer include -->
-  <div id="page-footer"></div>
-
-  <!-- Back to top button -->
-  <a role="button" id="back-to-top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-angle-up" aria-hidden="true"></i></a>
-
-  <div class="modal fade" id="modal-map-to-office" tabindex="-1" role="dialog" aria-labelledby="office-map-modal-label" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="office-map-modal-label">Map to my lab</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"><i class="fa fa-times-circle bright-blue"></i></span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>Building N1<br>
-            <small class="text-muted small-caps">North East of KAIST</small>
-          </p>
-          <img class="img-fluid rounded" width="100%" src="img/map-to-my-office.jpg" alt="map to my office">
-        </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://fl-icml.github.io/2021/papers/FL-ICML21_paper_6.pdf">Accelerating Federated Learning with Split Learning on Locally Generated Losses</a></div>
+      <div class="author">Dong-Jun Han, <strong>Hasnain Irshad Bhatti</strong>, Jungmoon Lee, Jaekyun Moon</div>
+      <div class="periodical"><em>ICML 2021 Workshop on Federated Learning for User Privacy and Data Confidentiality, 2021.</em>
       </div>
+    <div class="links">
+       
+      <a href="https://fl-icml.github.io/2021/papers/FL-ICML21_paper_6.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+      
+      
+       
+      <a href="./assets/bibtex/splitfed.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+      
+      
     </div>
   </div>
-
-  <!-- jquery JS minified -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-  <!-- jquery ui -->
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-  <!-- popper minified -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
-  <!-- bootstrap JS minified -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  <!-- Main local scripts -->
-  <script src="js/main.js"></script>
-
-  <script>
-    $(function() {
-
-      // Load the top page navbar
-      $("#page-navbar").load("page-navbar.html", function() {
-
-      });
+</div>
+</li>
+<br />
 
 
-    });
-    // document.ready
-  </script>
 
-</body>
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/pub_evofed_thumb.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+     
+    <abbr class="badge">NeurIPS</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://arxiv.org/pdf/2311.07485.pdf">EvoFed: Leveraging Evolutionary Strategies for Communication-Efficient Federated Learning</a></div>
+      <div class="author">Mohammad Mahdi Rahimi, <strong>Hasnain Irshad Bhatti</strong>, Younghyun Park, Humaira Kousar, Do-Yeon Kim, Jaekyun Moon</div>
+      <div class="periodical"><em>Advances in Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/pdf/2311.07485.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+       
+      <a href="https://github.com/mahi97/EvoFL" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      
+      
+       
+      <a href="./assets/bibtex/evofed.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
 
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/pub_pgg_thumb.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+     
+    <abbr class="badge">ICML Workshop</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://arxiv.org/pdf/2208.00821">Locally Supervised Learning with Periodic Global Guidance</a></div>
+      <div class="author"><strong>Hasnain Irshad Bhatti</strong>, Jaekyun Moon</div>
+      <div class="periodical"><em>ICML 2022 Hardware Aware Efficient Training (HAET) Workshop, 2022.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://arxiv.org/pdf/2208.00821" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+      
+      
+       
+      <a href="./assets/bibtex/pgg.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+     
+    <img src="./assets/img/pub_gpg_thumb.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
+     
+    <abbr class="badge">IC2S2</abbr>
+    
+    
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11113417">Analyzing Gender Pay Gap in STEM Fields by Life Trajectory</a></div>
+      <div class="author">Wenchao Dong, Bryan Wong, <strong>Hasnain Irshad Bhatti</strong>, Lanu Kim, Meeyoung Cha</div>
+      <div class="periodical"><em>International Conference on Computational Social Science <strong>(IC2S2)</strong>, 2022 and Korea Computer Congress 2022.</em>
+      </div>
+    <div class="links">
+       
+      <a href="https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11113417" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      
+      
+      
+       
+      <a href="./assets/bibtex/gpg.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      
+      
+      
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+
+</ol>
+</div>
+
+<h2 id="services">Services</h2>
+
+<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><a href="https://icml.cc/Conferences/2025"><autocolor>International Conference on Machine Learning (ICML) 2025</autocolor></a></li>
+  <li><a href="https://iclr.cc/Conferences/2025/"><autocolor>International Conference on Learning Representations (ICLR) 2025</autocolor></a></li>
+  <li><a href="https://aistats.org/"><autocolor>Artificial Intelligence and Statistics (AISTATS) 2025</autocolor></a></li>
+  <li><a href="https://neurips.cc/Conferences/2024/"><autocolor>Advances in Neural Information Processing Systems (NeurIPS) 2024</autocolor></a></li>
+</ul>
+
+<!-- <h4 style="margin:0 10px 0;">Journal Reviewers</h4> -->
+
+<!-- <ul style="margin:0 0 20px;">
+  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
+  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+</ul> -->
+
+
+      <br>
+
+      
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-111540567-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
 </html>

@@ -1,0 +1,7 @@
+@article{rahimi2024evofed,
+  title={EvoFed: leveraging evolutionary strategies for communication-efficient federated learning},
+  author={Rahimi, Mohammad Mahdi and Bhatti, Hasnain Irshad and Park, Younghyun and Kousar, Humaira and Kim, Do-Yeon and Moon, Jaekyun},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}

@@ -1,0 +1,6 @@
+@article{bhatti2022locally,
+  title={Locally Supervised Learning with Periodic Global Guidance},
+  author={Bhatti, Hasnain Irshad and Moon, Jaekyun},
+  journal={ICML 2022 Hardware Aware Efficient Training (HAET) Workshop},
+  year={2022}
+}

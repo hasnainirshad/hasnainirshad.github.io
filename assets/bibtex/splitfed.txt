@@ -1,0 +1,6 @@
+@inproceedings{han2021accelerating,
+  title={Accelerating federated learning with split learning on locally generated losses},
+  author={Han, Dong-Jun and Bhatti, Hasnain Irshad and Lee, Jungmoon and Moon, Jaekyun},
+  booktitle={ICML 2021 workshop on federated learning for user privacy and data confidentiality. ICML Board},
+  year={2021}
+}
