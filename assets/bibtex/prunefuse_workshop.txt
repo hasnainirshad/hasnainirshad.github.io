@@ -1,0 +1,6 @@
+@article{kousar2025pruningbaseddataselectionnetwork,
+      title={Pruning-based Data Selection and Network Fusion for Efficient Deep Learning}, 
+      author={Humaira Kousar and Hasnain Irshad Bhatti and Jaekyun Moon},
+      year={2024},
+      journal={Advances in Neural Information Processing Systems (NeurIPS 2024) Workshop on Attributing Model Behavior at Scale (ATTRIB)},
+}
