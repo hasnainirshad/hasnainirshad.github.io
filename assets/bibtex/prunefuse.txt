@@ -1,0 +1,10 @@
+@article{
+kousar2026prunefuse,
+title={PruneFuse: Efficient Data Selection via Weight Pruning and Network Fusion},
+author={Humaira Kousar and Hasnain Irshad Bhatti and Jaekyun Moon},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=BvnxenZwqY},
+note={Featured Certification}
+}
